@@ -5,7 +5,7 @@
 - Workload growth assumptions: 25% year-over-year data volume growth and 15% growth in fraud detection workloads.
 - Data growth assumptions: retained governed data grows from 80 TB to 125 TB over two years.
 - Utilization assumptions: production compute utilization target of 65-75% under autoscale policies.
-- Pricing assumptions and date: indicative Azure and Databricks pricing baseline dated 2026-02-12.
+- Pricing assumptions and date: indicative Azure and Databricks pricing baseline dated 2025-10-12.
 
 ### 2. Workload profile
 

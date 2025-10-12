@@ -57,10 +57,10 @@
 
 | Milestone | Target date | Outcome |
 |---|---|---|
-| Phase 1 foundation complete | 2026-03-31 | Core platform, governance baseline, initial ingestion controls |
-| Phase 2 governed onboarding complete | 2026-06-30 | Fraud domain data products and quality gates in non-prod |
-| Phase 3 hardening complete | 2026-09-30 | Security, resilience, and readiness criteria met for production |
-| Production go-live decision | 2026-10-15 | Go/no-go based on readiness checklist and risk posture |
+| Phase 1 foundation complete | 2025-10-31 | Core platform, governance baseline, initial ingestion controls |
+| Phase 2 governed onboarding complete | 2025-11-20 | Fraud domain data products and quality gates in non-prod |
+| Phase 3 hardening complete | 2025-11-26 | Security, resilience, and readiness criteria met for production |
+| Production go-live decision | 2025-11-28 | Go/no-go based on readiness checklist and risk posture |
 
 ### 8. Recommendation and Ask
 

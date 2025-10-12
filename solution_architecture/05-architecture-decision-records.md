@@ -4,9 +4,9 @@
 
 | ADR ID | Title | Status | Date | Owners | Related artifacts |
 |---|---|---|---|---|---|
-| ADR-001 | Platform Selection (Azure Databricks Lakehouse) | Accepted | 2026-02-06 | Architecture Board | 04, 06, 07 |
-| ADR-002 | Streaming vs Batch Ingestion (Hybrid) | Accepted | 2026-02-06 | Data and Platform Architecture | 04, 06, 10 |
-| ADR-003 | Security and Governance Model | Accepted | 2026-02-06 | Security and Governance | 07, 08, 12 |
+| ADR-001 | Platform Selection (Azure Databricks Lakehouse) | Accepted | 2025-10-06 | Architecture Board | 04, 06, 07 |
+| ADR-002 | Streaming vs Batch Ingestion (Hybrid) | Accepted | 2025-10-06 | Data and Platform Architecture | 04, 06, 10 |
+| ADR-003 | Security and Governance Model | Accepted | 2025-10-06 | Security and Governance | 07, 08, 12 |
 
 ### 1. Context
 
@@ -63,4 +63,4 @@ The project adopts Azure Databricks, Delta Lake, and Unity Catalog as the core p
 ### 8. Review trigger
 
 - Trigger: major control model change, material risk posture change, or platform strategy change.
-- Review date: 2026-06-30.
+- Review date: 2025-11-20.

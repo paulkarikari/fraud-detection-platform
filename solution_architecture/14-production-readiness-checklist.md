@@ -44,9 +44,9 @@
 
 #### Open issues
 
-- Complete full production-scale DR drill and capture evidence (`Owner: Operations Lead, Due: 2026-09-15`).
-- Close remaining conditional SoD evidence automation action (`Owner: Security Lead, Due: 2026-08-31`).
-- Finalize retention policy legal hold test evidence (`Owner: Governance Lead, Due: 2026-09-30`).
+- Complete full production-scale DR drill and capture evidence (`Owner: Operations Lead, Due: 2025-11-24`).
+- Close remaining conditional SoD evidence automation action (`Owner: Security Lead, Due: 2025-11-22`).
+- Finalize retention policy legal hold test evidence (`Owner: Governance Lead, Due: 2025-11-26`).
 
 #### Go/no-go recommendation
 

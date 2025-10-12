@@ -9,9 +9,9 @@
 
 | Phase | Objectives | Key deliverables | Exit criteria | Target window |
 |---|---|---|---|---|
-| Phase 1 | Foundation | IaC baseline, environment model, identity boundary, Bronze ingestion baseline, observability baseline | Non-prod controls active, initial evidence pipeline running | 2026-02-15 to 2026-03-31 |
-| Phase 2 | Governed onboarding | Silver conformance, Gold fraud products, quality policy enforcement, access workflows | Business validation complete, quality gates operational | 2026-04-01 to 2026-06-30 |
-| Phase 3 | Scale and harden | Resilience drills, cost controls, security hardening, production readiness | Section 14 checks pass and open critical risks resolved | 2026-07-01 to 2026-10-15 |
+| Phase 1 | Foundation | IaC baseline, environment model, identity boundary, Bronze ingestion baseline, observability baseline | Non-prod controls active, initial evidence pipeline running | 2025-10-01 to 2025-10-31 |
+| Phase 2 | Governed onboarding | Silver conformance, Gold fraud products, quality policy enforcement, access workflows | Business validation complete, quality gates operational | 2025-10-16 to 2025-11-20 |
+| Phase 3 | Scale and harden | Resilience drills, cost controls, security hardening, production readiness | Section 14 checks pass and open critical risks resolved | 2025-11-01 to 2025-11-28 |
 
 ### 3. Dependency map
 

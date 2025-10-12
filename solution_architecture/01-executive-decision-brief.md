@@ -4,7 +4,7 @@
 
 - Decision: Approve phased delivery of a governed fraud detection lakehouse on Azure Databricks.
 - Approval body: Program sponsor, architecture board, security and risk forum.
-- Decision date: 2026-02-19.
+- Decision date: 2025-10-19.
 
 ### 2. Problem Summary
 
