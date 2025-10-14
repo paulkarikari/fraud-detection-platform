@@ -1,0 +1,18 @@
+resources:
+  pipelines:
+    finance_transactions_lakeflow:
+      name: finance-transactions-lakeflow-${var.env}
+      catalog: ${var.catalog_name}
+      target: ${var.silver_schema}
+      continuous: false
+      development: true
+      photon: true
+      channel: CURRENT
+      configuration:
+        pipeline.env: ${var.env}
+        pipeline.catalog_name: ${var.catalog_name}
+        pipeline.bronze_schema: ${var.bronze_schema}
+        pipeline.silver_schema: ${var.silver_schema}
+      libraries:
+        - notebook:
+            path: ../src/pipelines/lakeflow_finance_transactions.py

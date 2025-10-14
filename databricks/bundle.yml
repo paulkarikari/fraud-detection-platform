@@ -1,0 +1,33 @@
+bundle:
+  name: enterprise-lakehouse
+
+variables:
+  env:
+    description: Deployment environment
+    default: dev
+  catalog_name:
+    description: Unity Catalog name for finance domain
+    default: finance_dev
+  bronze_schema:
+    description: Bronze schema name
+    default: bronze
+  silver_schema:
+    description: Silver schema name
+    default: silver
+  gold_schema:
+    description: Gold schema name
+    default: gold
+  warehouse_id:
+    description: SQL warehouse used for governance and publish tasks
+    default: ""
+
+workspace:
+  profile: DEFAULT
+
+sync:
+  include:
+    - ../src/**
+
+include:
+  - resources/*.yml
+  - environments/${var.env}.yml
