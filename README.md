@@ -1,6 +1,6 @@
 # Fraud Detection Lakehouse on Azure Databricks
 
-A portfolio-grade solution architecture case study for a Tier-1 bank fraud domain.
+A solution architecture case study for a Tier-1 bank fraud domain.
 This project shows how to move from fragmented fraud data pipelines to a governed, production-ready lakehouse with explicit control boundaries, repeatable deployment, and audit-ready evidence.
 
 ## Why This Project Exists
@@ -37,7 +37,7 @@ The complete solution architecture document is organized in `solution_architectu
 
 Detailed technical architecture views are maintained in:
 - `solution_architecture/04-reference-architecture.md`
-- `diagrams/` and `diagrams/png/`
+- `diagrams/`
 
 ## How To Run
 
@@ -48,26 +48,7 @@ Detailed technical architecture views are maintained in:
 - Databricks CLI (authenticated profile)
 - Bash
 
-### 2. Validate the project
 
-Run from repository root (`databricks_enprise/`):
-
-```bash
-make validate PROJECT=fraud-detection-platform
-```
-
-This runs:
-- Python lint checks
-- Python compile checks
-- Terraform format/init/validate
-- Databricks bundle validation
-
-### 3. Render architecture diagrams
-
-```bash
-make diagram-render PROJECT=fraud-detection-platform
-make diagram-index PROJECT=fraud-detection-platform
-```
 
 ### 4. Validate and deploy Databricks bundle (example: dev)
 
