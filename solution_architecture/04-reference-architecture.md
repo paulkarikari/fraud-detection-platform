@@ -1,7 +1,5 @@
 # Reference Architecture
 
-Control reference: aligned to `finbricks_blog/docs/artifacts/templates/04-reference-architecture-template.md`.
-
 ## 1. Purpose
 
 Define the target architecture pattern, control boundaries, and implementation standards for the fraud detection lakehouse on Azure Databricks.
