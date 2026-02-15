@@ -1,6 +1,6 @@
 # Architecture Document Pack
 
-This folder is the single source of truth for the template-based Solution Architecture Documentation (sections `00` to `14`) for the Fraud Detection Lakehouse project.
+This folder is the single source of truth for Solution Architecture Documentation (sections `00` to `14`) for the Fraud Detection Lakehouse project.
 
 ## Section Index
 
