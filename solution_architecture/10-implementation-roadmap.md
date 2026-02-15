@@ -42,6 +42,6 @@
 - Security and control checkpoint: pre-production hardening and before go/no-go.
 - Production readiness checkpoint: final gate before production decision.
 
-### 7. Example milestone narrative
+### 7. Milestone narrative
 
 Phase 1 establishes control boundaries, baseline identity and network model, and CI/CD control evidence flow. Business-critical Gold outputs are not promoted until phase 2 quality and governance controls are proven.
