@@ -37,7 +37,7 @@ Describe upstream/downstream ecosystems and control boundaries.
 | Test | Azure primary region (pre-prod landing zone) | Isolated workspace and storage accounts with controlled test data | Promotion from dev via approved CI/CD gates |
 | Prod | Azure primary region (regulated production landing zone) | Fully isolated workspace, storage, networking, and secrets boundaries | Approved promotion from test with change control and evidence capture |
 
-![Deployment View Diagram](./images/06-deployment-architecture.png)
+![Deployment View Diagram](./images/deployment_view.png)
 
 ### 2.4 Data flow view
 

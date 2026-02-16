@@ -24,7 +24,11 @@ This folder is the single source of truth for Solution Architecture Documentatio
 
 ## Supporting Implementation Areas
 
-- Architecture images: `./images/`
+- Architecture images used in section 04:
+  - `./images/01-system-context.png`
+  - `./images/02-logical-architecture.png`
+  - `./images/deployment_view.png`
+  - `./images/03-data-architecture.png`
 - Databricks bundle and workload deployment: `../databricks/`
 - Infrastructure as code: `../infra/terraform/`
 - Pipeline and SQL implementation: `../src/`

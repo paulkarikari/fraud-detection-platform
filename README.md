@@ -38,6 +38,10 @@ The complete solution architecture document is organized in `solution_architectu
 Detailed technical architecture views are maintained in:
 - `solution_architecture/04-reference-architecture.md`
 - `solution_architecture/images/`
+  - `01-system-context.png`
+  - `02-logical-architecture.png`
+  - `deployment_view.png`
+  - `03-data-architecture.png`
 
 ## How To Run
 
