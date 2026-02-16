@@ -103,7 +103,12 @@ If you are reviewing this as a hiring manager or architecture panel:
    - `solution_architecture/11-risk-and-control-register.md`
    - `solution_architecture/14-production-readiness-checklist.md`
 
-## Notes
 
-- Scenario data and client context are anonymized and representative.
-- No credentials, secrets, tenant IDs, or workspace URLs are stored in source.
+## Disclaimer
+
+- This case study is a portfolio reconstruction based on real delivery experience in regulated financial services.
+- All scenario details, architecture context, and sample data are anonymized and representative.
+- Any references to clients are for industry context only and do not disclose confidential information.
+- No proprietary client code, production data, credentials, secrets, tenant IDs, or workspace URLs are included.
+- Artifacts are provided for demonstration of approach, decision-making, and delivery capability.
+
