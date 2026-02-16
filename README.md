@@ -47,7 +47,7 @@ Detailed technical architecture views are maintained in:
 
 ### 1. Prerequisites
 
-- Python 3.9+ with `ruff`
+- Python 3.9+
 - Terraform CLI
 - Databricks CLI (authenticated profile)
 - Bash
@@ -68,7 +68,7 @@ databricks bundle run finance_batch_eod --var env=dev
 ```bash
 cd fraud-detection-platform/infra/terraform
 terraform fmt
-terraform init -backend=false
+terraform init
 terraform validate
 ```
 
