@@ -37,7 +37,7 @@ The complete solution architecture document is organized in `solution_architectu
 
 Detailed technical architecture views are maintained in:
 - `solution_architecture/04-reference-architecture.md`
-- `diagrams/`
+- `solution_architecture/images/`
 
 ## How To Run
 
@@ -73,7 +73,7 @@ terraform validate
 | Path | Purpose |
 |---|---|
 | `solution_architecture/` | Canonical template-based solution architecture pack (`00` to `14`). |
-| `diagrams/` | Curated architecture visuals and exported draw.io outputs. |
+| `solution_architecture/images/` | Embedded architecture visuals used by section 04 (system context, logical, deployment, data flow). |
 | `databricks/` | Databricks Asset Bundle config for pipelines/jobs and environment overlays. |
 | `infra/terraform/` | Azure infrastructure as code for resource group, storage, and workspace baseline. |
 | `src/` | Pipeline and SQL implementation for Bronze/Silver/Gold flow and governance logic. |

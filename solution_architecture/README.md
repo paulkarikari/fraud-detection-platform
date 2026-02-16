@@ -24,7 +24,7 @@ This folder is the single source of truth for Solution Architecture Documentatio
 
 ## Supporting Implementation Areas
 
-- Diagrams: `../diagrams/`
+- Architecture images: `./images/`
 - Databricks bundle and workload deployment: `../databricks/`
 - Infrastructure as code: `../infra/terraform/`
 - Pipeline and SQL implementation: `../src/`

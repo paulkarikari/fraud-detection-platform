@@ -14,7 +14,7 @@ Describe upstream/downstream ecosystems and control boundaries.
 - Core systems: core banking platforms, card and payment platforms, digital channels, Azure Databricks, ADLS Gen2, Unity Catalog, downstream BI/analytics consumers.
 - Trust boundaries: source systems boundary, cloud landing zone boundary, Databricks workspace boundary, data governance boundary for Bronze/Silver/Gold products.
 
-![Context View Diagram](../diagrams/01-system-context.png)
+![Context View Diagram](./images/01-system-context.png)
 
 ### 2.2 Logical view
 
@@ -27,7 +27,7 @@ Describe upstream/downstream ecosystems and control boundaries.
 | Unity Catalog governance | Enforce access policy, lineage, and classification controls | Data governance | Entra ID groups, catalog/schema policy model |
 | Observability layer | Collect metrics, logs, alerts, and pipeline health signals | Platform operations | Azure Monitor/Log Analytics |
 
-![Logical View Diagram](../diagrams/02-logical-architecture.png)
+![Logical View Diagram](./images/02-logical-architecture.png)
 
 ### 2.3 Deployment view
 
@@ -37,7 +37,7 @@ Describe upstream/downstream ecosystems and control boundaries.
 | Test | Azure primary region (pre-prod landing zone) | Isolated workspace and storage accounts with controlled test data | Promotion from dev via approved CI/CD gates |
 | Prod | Azure primary region (regulated production landing zone) | Fully isolated workspace, storage, networking, and secrets boundaries | Approved promotion from test with change control and evidence capture |
 
-![Deployment View Diagram](../diagrams/06-deployment-architecture.png)
+![Deployment View Diagram](./images/06-deployment-architecture.png)
 
 ### 2.4 Data flow view
 
@@ -45,7 +45,7 @@ Describe upstream/downstream ecosystems and control boundaries.
 - Control points at each stage: ingestion validation, conformance and quality checks, access and lineage controls through Unity Catalog, and release controls through CI/CD.
 - Failure handling path: retry and checkpointing for stream jobs, quarantine/reprocess patterns for bad records, and incident triage through runbook-led operations.
 
-![Data Flow View Diagram](../diagrams/03-data-architecture.png)
+![Data Flow View Diagram](./images/03-data-architecture.png)
 
 ## 3. Integration patterns
 
